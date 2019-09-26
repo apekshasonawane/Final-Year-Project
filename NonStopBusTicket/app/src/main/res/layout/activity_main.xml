@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" android:background="#6bc6e7">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Apeksha Sonawane\nShruti More\nShraddha Swami\nGaytri Mane\nIramsaba Majavav"
+        android:textColor="#ffffff"
+        android:textSize="26dp"
+        android:background="#000000"
+        android:fontFamily="cursive"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/namever"
+        android:layout_above="@+id/ProgressBar1" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/logo1" />
+
+    <TextView
+        android:id="@+id/txtrere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="Loading..."
+        android:textColor="#ad0317"
+        />
+
+    <TextView
+        android:id="@+id/namever"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="#7F000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="Non-stop bus ticket Generation System"
+        android:textColor="#ad0317"
+        android:textSize="24sp"
+        android:background="@drawable/lbl_border"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_below="@+id/imageView1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="13dp" />
+
+    <ProgressBar
+        android:id="@+id/ProgressBar1"
+        style="@android:style/Widget.DeviceDefault.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        android:max="100"
+        android:background="#FFFF00"
+        android:layout_above="@+id/txtrere"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout >

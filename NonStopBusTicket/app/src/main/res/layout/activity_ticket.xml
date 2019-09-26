@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#6bc6e7"
+    android:orientation="vertical"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:text="Thanks for Ticket Reservation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:gravity="center_horizontal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:text="Ticket ID :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTicketId"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:text="Fair :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewFair"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:text="Journey Date :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewDate"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:text="Journey Time :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTime"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/buttonBusTicket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_button"
+        android:text="Print Ticket"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/buttonBusCancelTicket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_button"
+        android:text="Cancel Ticket"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+</LinearLayout>
